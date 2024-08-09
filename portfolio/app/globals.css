@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 0, 166, 136;
+
+}
+
+@font-face {
+  font-family: "Copperplate Gothic Bold";
+  src: url(./Fonts/copperplategothic_bold.ttf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.NavLink {
+  font-family: "Copperplate Gothic Bold";
+}
+
+body{
+  background-color: rgb(var(--background-rgb));
+}
