@@ -9,10 +9,10 @@ export default function Nav() {
       {/* Render the toggle button as a client component */}
       <ToggleButton />
       <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-        <ul className="flex-col md:flex-row flex md:space-x-6 lg:space-x-16 items-center  ">
+        <ul className="flex-col md:flex-row flex md:space-x-6 lg:space-x-16 items-center">
           <li><NavLink href=".">Intro</NavLink></li>
           <li><NavLink href="#skills">Skills</NavLink></li>
-          <li><NavLink href="/portfolio">Projects</NavLink></li>
+          <li><NavLink href="/portfolio/">Projects</NavLink></li>
           <li><NavLink href="#contact">Contact me</NavLink></li>
         </ul>
       </div>
