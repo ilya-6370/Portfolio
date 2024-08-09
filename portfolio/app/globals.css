@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 :root {
+  --primary-color-rgb:0, 166, 136;
   --foreground-rgb: 0, 0, 0;
-  --background-rgb: 0, 166, 136;
+  --background-rgb:var(--primary-color-rgb);
 
 }
 
@@ -23,6 +24,11 @@ h6,
   font-family: "Copperplate Gothic Bold";
 }
 
+
 body{
   background-color: rgb(var(--background-rgb));
+}
+
+.NavLink:hover{
+  color: rgb(var(--primary-color-rgb));
 }
